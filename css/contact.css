@@ -1,0 +1,24 @@
+h1 {
+    font-family: "Megrim", cursive;
+}
+
+#contact-info {
+    font-family: "Orbitron", sans-serif;
+    background: linear-gradient(30deg, rgb(192, 91, 224), rgb(92, 23, 132));
+    background-color: rgb(192, 97, 248);
+    box-shadow: 5px 5px 5px rgb(59, 4, 84);
+    border-radius: 5px;
+    color: black;
+    height: 50%;
+}
+
+#top-info {
+    font-size: larger;
+    font-weight: bolder;
+    color: azure;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+ td {
+    padding: 10px 25px;
+}

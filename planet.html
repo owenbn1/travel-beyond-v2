@@ -3,37 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/shared.css" />
+    <!--made a shared.css file for shared styled elements-->
+    <link rel="stylesheet" href="css/planet.css" />
+     <!--add a link to the style sheet for the index file for its dedicated styles for its page-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Megrim&family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"/>
+      <!--added a link for the type of font that suit the site-->
     <title>Travel Beyond</title>
   </head>
   <body>
-    <h1>Planets</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="planet.html">Planets</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <header>
+      <h1>Planets</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
 
-    <h3>Requirement to Visit</h3>
+    <div class="Requirement">
+      <!--made a class syntax for this div.-->
 
-    <ul>
-      <li>18 years or older</li>
-      <li>Spaceship license</li>
-      <li>Up-To-Date Vaccination</li>
-    </ul>
+      <h3>Requirement to Visit</h3>
 
-    <form action="confirmation.html">
-        <h3>Choose a planet you'd like to visit</h3>
-        <input type="radio" name="planet" value="Kepler-62e" p> <strong>Lyra</strong> Kepler-62e</p>
-        <img src="/images/kepler-0.jpg" alt="" width="300px">
-        <br>
-        <input type="radio" name="planet" value="Kepler-62f" p> <strong>Lyra</strong> Kepler-62f</p>
-        <img src="/images/kepler-1.jpg" alt="" width="300px">
-        <br>
-        <input type="radio" name="planet" value="Kepler-62c" p> <strong>Cygnus</strong> Kepler-69c</p>
-        <img src="/images/kepler-2.jpg" alt="" width="300px">
-        <br>
-        <input type="submit" value="submit">
-    </form>
+      <ul>
+        <li>18 years or older</li>
+        <li>Spaceship license</li>
+        <li>Up-To-Date Vaccination</li>
+      </ul>
+    </div>
+
+    <h3>Choose a planet you'd like to visit</h3>
+    <div id="planets">
+      <!--made an id for this div to get all the list element-->
+      <ul id="planets-contexts">
+        <!--made a specific id for this ul to get certain style-->
+        <li>
+          <img src="/images/kepler-0.jpg" alt="" />
+          <p>Kepler-62e <strong>Lyra </strong></p>
+        </li>
+        <li>
+          <img src="/images/kepler-1.jpg" alt="" />
+          <p>Kepler-62f <strong>Lyra </strong></p>
+        </li>
+        <li>
+          <img src="/images/kepler-2.jpg" alt="" />
+          <p>Kepler-69c <strong>Cygnus</strong></p>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
